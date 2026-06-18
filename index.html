@@ -352,7 +352,7 @@ let cD,cB,cL;
 const q = id => document.getElementById(id);
 
 function gvizUrl(gid){
-  return `https://docs.google.com/spreadsheets/d/${CFG.SHEET_ID}/gviz/tq?tqx=out:json&gid=${gid}&cb=${Date.now()}`;
+  return `https://docs.google.com/spreadsheets/d/${1nGbngTtaPZqAz0bz0Tsqsw43VZt6QbeLNYRPL9Wowck}/gviz/tq?tqx=out:json&gid=${gid}&cb=${Date.now()}`;
 }
 async function fetchSheet(gid){
   const r = await fetch(gvizUrl(gid));
